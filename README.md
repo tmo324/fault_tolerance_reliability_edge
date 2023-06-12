@@ -1,3 +1,41 @@
+### Tuli, Shreshth & Casale, Giuliano & Jennings, Nicholas. (2021). PreGAN: Preemptive Migration Prediction Network for Proactive Fault-Tolerant Edge Computing.
+
+Link:
+
+Takeaways
+
+     - proposes a model that is trained using a pre-trained FPE encoder and co-simulation engine
+     - PreGAN model is a machine learning model that predicts, based on the discriminator's likelihood scores, whether a preemptive migration decision would improve quality of service (QoS) or not, allowing optimization of scheduling decisions and reduction of execution costs.
+
+     - PreGAN performs best in terms of QoS metrics, reducing the energy consumption, response time and SLO violations by up to 8, 5 and 12 percent, respectively.
+     - 5.1% more accurate fault detection, 10.7% lower task migrations and 23.8% lower overhead than the most accurate baseline
+
+### Reliable and Fault-Tolerant IoT-Edge Architecture
+
+Link:
+
+Takeaways
+
+     - the proposed system is fault tolerant as it reditects the application on an alternative server.
+     - based on delay-tolerance of the IoT application, redirection is done
+     - solution: mobile agents (MAs) on servers to share systems' state and important info with other agents.
+          - They monitor resource and network and assigng the priority to applications. - new path discovery
+
+### Adaptive Fault-Tolerant Strategy for Latency-Aware IoT Application Executing in Edge Computing Environment
+
+Link:
+
+Takeaways
+
+     - fault-tolerance methodology based on checkpointing and replication for the edge computing
+          - Algo 1: allocates a list of nodes to each subtask that may replace the primary node
+          - Algo 2: returns a subset of neightbors to increase the replication
+          - Algo 3: stores the copy of checkpoint file to increase task availability
+          - Algo 4: recovers failed task ti; failed task is ran on an alternative node
+          - Algo 5: everything put together
+     - the success rate ofr the ACR method is higher than other two methods when the failure rate is higher
+     - Across different failure rates, ACR achieved the lowest latency, energy consumption; and highest percent completed tasks and reliability.
+
 ### S. Teerapittayanon, B. McDanel and H. T. Kung, "Distributed Deep Neural Networks Over the Cloud, the Edge and End Devices," 2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS), Atlanta, GA, USA, 2017, pp. 328-339, doi: 10.1109/ICDCS.2017.226.
 
 Link: https://ieeexplore.ieee.org/document/7979979
